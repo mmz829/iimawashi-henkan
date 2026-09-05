@@ -1,6 +1,7 @@
 # 言い回し変換
 
 入力した日本語の文章を、**関西弁・丁寧語・ギャル語**へ変換する Streamlit アプリです。
+変換には **Gemini（`gemini-3.6-flash`）** を使っています。
 
 ## できること
 
@@ -41,7 +42,7 @@ streamlit run app.py
 | ファイル | 内容 |
 |---|---|
 | `app.py` | Streamlit UI |
-| `tone_converter.py` | Gemini による言い回し変換 |
+| `tone_converter.py` | Gemini（`gemini-3.6-flash`）による言い回し変換 |
 | `requirements.txt` | 依存パッケージ |
 | `.streamlit/config.toml` | テーマ設定 |
 
